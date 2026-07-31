@@ -1,0 +1,4 @@
+all:
+	gcc -Wall -Wextra -Wpedantic -std=c17 \
+	src/*.c \
+	-o http-server
